@@ -1,0 +1,28 @@
+﻿Build started 06/05/2014 11:22:41.
+     1>Project "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v11\Kmeans_Serial\Kmeans_Serial.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I. /FIcuda_runtime.h /c "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v11\Kmeans_Serial\FeatureSpace.cu" 
+       CudaBuild:
+         Compiling CUDA source file FeatureSpace.cu...
+         cmd.exe /C "C:\Users\thatguylukuss\AppData\Local\Temp\tmpa63eafc157c94e98b05150ee85b44f4e.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\FeatureSpace.cu.obj "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v11\Kmeans_Serial\FeatureSpace.cu"
+         
+         C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v11\Kmeans_Serial>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\FeatureSpace.cu.obj "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v11\Kmeans_Serial\FeatureSpace.cu" 
+     1>c:\users\thatguylukuss\documents\visual studio 2012\projects\kmeans_parallel_v11\kmeans_serial\FeaturePoint.h(33): warning : function "Point::print() const" is hidden by "FeaturePoint::print" -- virtual function override intended?
+     1>c:\users\thatguylukuss\documents\visual studio 2012\projects\kmeans_parallel_v11\kmeans_serial\FeaturePoint.h(33): warning : function "Point::print() const" is hidden by "FeaturePoint::print" -- virtual function override intended?
+         FeatureSpace.cu
+     1>C:/Users/thatguylukuss/Documents/Visual Studio 2012/Projects/Kmeans_Parallel_v11/Kmeans_Serial/FeatureSpace.cu(186): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v11\Debug\Kmeans_Serial.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\lib\Win32\Cudart.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v11\Debug\Kmeans_Serial.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v11\Debug\Kmeans_Serial.lib" /MACHINE:X86 Debug\FeatureSpace.cu.obj
+         Debug\main.cu.obj
+         Debug\Exceptions.obj
+         Debug\FeaturePoint.obj
+         Debug\FileHandler.obj
+         Debug\jbutil.obj
+         Debug\Point.obj
+         Kmeans_Serial.vcxproj -> C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v11\Debug\Kmeans_Serial.exe
+     1>Done Building Project "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v11\Kmeans_Serial\Kmeans_Serial.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.45

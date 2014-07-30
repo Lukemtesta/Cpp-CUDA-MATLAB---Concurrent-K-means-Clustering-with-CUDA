@@ -1,0 +1,60 @@
+﻿Build started 11/05/2014 12:52:17.
+     1>Project "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial\Kmeans_Serial.vcxproj" on node 2 (Rebuild target(s)).
+     1>CudaClean:
+         cmd.exe /C "C:\Users\thatguylukuss\AppData\Local\Temp\tmp48f881fa3c2d4afe86ae3e04912825e7.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile      -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\FeatureSpace.cu.obj "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial\FeatureSpace.cu" -clean
+         
+         C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile      -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\FeatureSpace.cu.obj "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial\FeatureSpace.cu" -clean 
+         FeatureSpace.cu
+       CudaClean:
+         cmd.exe /C "C:\Users\thatguylukuss\AppData\Local\Temp\tmpda5cc5a953e242efa44be953b67f5ebd.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile      -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\main.cu.obj "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial\main.cu" -clean
+         
+         C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile      -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\main.cu.obj "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial\main.cu" -clean 
+         main.cu
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I. /FIcuda_runtime.h /c "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial\FeatureSpace.cu" 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I. /FIcuda_runtime.h /c "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial\main.cu" 
+       CudaBuild:
+         Compiling CUDA source file FeatureSpace.cu...
+         cmd.exe /C "C:\Users\thatguylukuss\AppData\Local\Temp\tmpfac4be4c186a4d309e85bc150aeead75.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\FeatureSpace.cu.obj "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial\FeatureSpace.cu"
+         
+         C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\FeatureSpace.cu.obj "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial\FeatureSpace.cu" 
+     1>c:\users\thatguylukuss\documents\visual studio 2012\projects\kmeans_parallel_v10\kmeans_serial\FeaturePoint.h(33): warning : function "Point::print() const" is hidden by "FeaturePoint::print" -- virtual function override intended?
+     1>c:\users\thatguylukuss\documents\visual studio 2012\projects\kmeans_parallel_v10\kmeans_serial\FeaturePoint.h(33): warning : function "Point::print() const" is hidden by "FeaturePoint::print" -- virtual function override intended?
+         FeatureSpace.cu
+     1>C:/Users/thatguylukuss/Documents/Visual Studio 2012/Projects/Kmeans_Parallel_v10/Kmeans_Serial/FeatureSpace.cu(203): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       CudaBuild:
+         Compiling CUDA source file main.cu...
+         cmd.exe /C "C:\Users\thatguylukuss\AppData\Local\Temp\tmp0bbe89656ffe411491f856ef3d39ff51.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\main.cu.obj "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial\main.cu"
+         
+         C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\main.cu.obj "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial\main.cu" 
+     1>c:\users\thatguylukuss\documents\visual studio 2012\projects\kmeans_parallel_v10\kmeans_serial\FeaturePoint.h(33): warning : function "Point::print() const" is hidden by "FeaturePoint::print" -- virtual function override intended?
+     1>c:\users\thatguylukuss\documents\visual studio 2012\projects\kmeans_parallel_v10\kmeans_serial\FeaturePoint.h(33): warning : function "Point::print() const" is hidden by "FeaturePoint::print" -- virtual function override intended?
+         main.cu
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Exceptions.cpp FeaturePoint.cpp FileHandler.cpp jbutil.cpp Point.cpp
+         Exceptions.cpp
+         FeaturePoint.cpp
+         FileHandler.cpp
+         jbutil.cpp
+         Point.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Release\Kmeans_Serial.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib \Cudart.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Release\Kmeans_Serial.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Release\Kmeans_Serial.lib" /MACHINE:X86 /SAFESEH Release\FeatureSpace.cu.obj
+         Release\main.cu.obj
+         Release\Exceptions.obj
+         Release\FeaturePoint.obj
+         Release\FileHandler.obj
+         Release\jbutil.obj
+         Release\Point.obj
+         Generating code
+         Finished generating code
+         Kmeans_Serial.vcxproj -> C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Release\Kmeans_Serial.exe
+     1>Done Building Project "C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\Kmeans_Parallel_v10\Kmeans_Serial\Kmeans_Serial.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.30
